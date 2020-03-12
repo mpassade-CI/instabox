@@ -1,17 +1,23 @@
 body {
     background-color: #FAFAFA;
+
 }
 
 #row1 {
-    justify-content: space-evenly;
+    padding-top: 40px;
+    height: 250px;
+    padding-bottom: 40px;
 }
 
 #row2 {
+    font-size: 14px;
     
-    justify-content: space-evenly;
+    
 }
 
 #logo {
+    padding-right: 150px;
+    padding-left: 150px;
     
 }
 
@@ -19,22 +25,76 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    
 }
 
-.prow {
+.prowNstats {
     display: flex;
+    
 }
 
 .imgDesc {
     text-align: center;
+    padding-right: 40px;
 }
 
 #IG {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
+    font-weight: 300;
+    color: #262626;
 }
 
 #IGlogo {
-    
+    height: 200px;
+    width: 200px;
+}
+
+.statpad {
+    padding-right: 50px;
+}
+
+#followedby {
+    font-size: 12px;
+}
+
+.b600 {
+    font-weight: 600;
+}
+
+.grey {
+    color: #999999 ;
+}
+
+.lilicon {
+    height: 20px;
+    width: 20px;
+    padding-right: 15px;
+}
+
+.row2img {
+    height: 120px;
+    width: 120px;
+}
+
+#row2left {
+    padding-left: 100px;
+}
+
+#button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #262626;
+    border-radius: 4px;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+#dots {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
 }
